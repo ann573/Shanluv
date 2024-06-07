@@ -1,0 +1,33 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.cart-item-image {
+  width: 130px;
+  height: auto;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.cart-total {
+  margin-top: 20px;
+  text-align: right;
+}
+span{
+  margin: 1rem 0;
+}
+.trash 
+{
+  background-color: red;
+  color: white;
+  padding: 3px;
+  cursor: pointer;
+  border-radius: .2rem;
+}

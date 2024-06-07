@@ -1,0 +1,86 @@
+.title_popup
+{
+    font-size: 20pt;
+}
+.close
+{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 20pt;
+    padding-bottom: 5px;
+}   
+.pic 
+{
+    width: 40%;
+    display: flex;
+    flex: 1;
+    display: inline;
+    position: relative;
+}
+.booking 
+{
+    position: absolute;
+    flex: 1;
+    display: inline;
+   
+}
+.option:first-child .size,
+.option:first-child .sizeSelected  
+{
+    margin-left: 1.7rem;
+    padding: 0 1rem  ;
+}
+.size
+{
+    cursor: pointer;
+    padding: 0 8px;
+    border: 1px solid black;
+    margin: 0 5px;
+}
+.sizeSelected
+{
+    cursor: pointer;
+    padding: 0 8px;
+    border: 1px solid black;
+    margin: 0 5px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+.size:hover
+{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.size:active
+{
+    background-color: var(--secondary-color);
+    color: white;
+}
+.option 
+{
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.option input   
+{
+    width: 50%;
+    margin-left: .9rem;
+    padding-left:1px ;
+}
+.price_popup
+{
+    margin-left: 2rem;
+}
+.btn_popup
+{
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    padding: .3rem;
+}
+.btn_popup:hover
+{
+    opacity: .8;
+}
